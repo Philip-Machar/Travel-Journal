@@ -4,7 +4,7 @@ A React-based travel journal application that showcases various travel destinati
 
 ![My Travel Journal Screenshot](/public/images/travel-journal.png)
 
-[Live Demo](your-live-demo-url-here)
+[Live Demo](https://travel-journal-nu-two.vercel.app/)
 
 ## Description
 
