@@ -8,7 +8,7 @@ const Card = (props) => {
             <div>
                 <div className="flex gap-2">
                     <FaLocationDot className="w-3 text-[#cd4e4f]" /><span className="text-gray-600 font-medium">{props.data.location}</span>
-                    <a href="#" className="text-gray-500 font-medium underline">View on Google Maps</a>
+                    <a href={props.data.googleMapsUrl} className="text-gray-500 font-medium underline">View on Google Maps</a>
                 </div>
                 <div>
                     <h1 className="font-medium text-2xl mb-3">{props.data.title}</h1>
